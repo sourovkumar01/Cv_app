@@ -6,17 +6,14 @@ void main() {
   runApp(Myapp());
 }
 
-class Myapp extends StatelessWidget{
+class Myapp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // TODO: implement build
     //throw UnimplementedError();
     return MaterialApp(
-
-      home:SplshScreen(),
-
-
+      debugShowCheckedModeBanner: false,
+      home: SplshScreen(),
     );
   }
 }
-
